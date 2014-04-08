@@ -1,0 +1,93 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center"
+    	android:layout_gravity="center_horizontal"
+    	android:paddingTop="10dp"
+    	android:paddingBottom="10dp">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:visibility="visible" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_rotar"
+            android:layout_weight="0.3"
+            android:text="Rotar"
+            android:onClick="accionAnimar"/>
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_escalar"
+            android:layout_weight="0.3"
+            android:text="Escalar"
+            android:onClick="accionAnimar"/>
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_mezcla1"
+            android:layout_weight="0.3"
+            android:text="Mezcla 1"
+            android:onClick="accionAnimar"/>
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center"
+    	android:layout_gravity="center_horizontal"
+    	android:paddingTop="10dp"
+    	android:paddingBottom="10dp">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_anim"
+            android:textSize="25sp"
+            android:text="Visita Androideity.com"/>"
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_mover"
+            android:layout_weight="0.3"
+            android:text="Transladar"
+            android:onClick="accionAnimar"/>
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_trans"
+            android:layout_weight="0.3"
+            android:text="Transparencia"
+            android:onClick="accionAnimar"/>
+        <Button 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_mezcla2"
+            android:layout_weight="0.3"
+            android:text="Mezcla 2"
+            android:onClick="accionAnimar"/>
+    </LinearLayout>
+</LinearLayout>
