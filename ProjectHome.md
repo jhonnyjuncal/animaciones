@@ -1,0 +1,1 @@
+Proyecto android de prueba de animaciones para el desarrollo de aplicaciones
